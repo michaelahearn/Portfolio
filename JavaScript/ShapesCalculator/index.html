@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+</title>
+</head>
+<body>
+
+<form action = "index.html" method = "GET">
+	<p>
+	<label id = "lblCircleRadius" name = "lblCircleRadius">Circle Radius</label>
+	<input type = "text" id = "circleRadius" name = "circleRadius"></input>
+	<input type = "button" id = "btnCircleArea" value="Circle Area" onclick = "addCircle(circleRadius.value)"></input>
+	</p>
+	
+	<p>
+	<label id = "lblSquareSides" name = "lblSquareSides">Square Side Length</label>
+	<input type = "text" id = "squareSides" name = "squareSides"></input>
+	<input type = "button" id = "btnSquareArea" value="Square Area" onclick = "addSquare(squareSides.value)"></input>	
+	</p>
+	
+	<p>
+	<label id = "lblRectangleLongSide" name = "lblRectangleLongSide">Rectangle Long Side Length</label>
+	<input type = "text" id = "rectangleLongSide" name = "rectangleLongSide"></input>	
+	<label id = "lblRectangleShortSide" name = "lblRectangleShortSide">Rectangle Short Side Length</label>
+	<input type = "text" id = "rectangleShortSide" name = "rectangleShortSide"></input>
+	<input type = "button" id = "btnRectangleArea" value="Rectangle Area" onclick = "addRectangle(rectangleLongSide.value, rectangleShortSide.value)"></input>
+	</p>
+	
+	<p>
+	<label id = "lblTriangleBase" name = "lblTriangleBase">Triangle Base</label>
+	<input type = "text" id = "triangleBase" name = "triangleBase"></input>
+	<label id = "lblTriangleHeight" name = "lblTriangleHeight">Triangle Height</label>
+	<input type = "text" id = "triangleHeight" name = "triangleHeight"></input>
+	<input type = "button" id = "btnTriangleArea" value="Triangle Area" onclick = "addTriangle(triangleBase.value, triangleHeight.value)"></input>
+	</p>
+	
+</form>
+<h2>Shapes</h2>
+<p id = "display" name = "display"></p>
+
+<script src = "js.js"></script>
+</body>
+</html>
