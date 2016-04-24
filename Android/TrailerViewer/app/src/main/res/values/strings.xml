@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Choose Trailer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="play_movie">Play Trailer</string>
+    <string name="add_trailer">Add Trailer</string>
+    <string name="add_filename">FileName</string>
+    <string name="add_name">Name</string>
+    <string name="add_description">Description</string>
+    <string name="rate_trailer">Rate Trailer</string>
+    <string name="delete_trailer">Delete Trailer</string>
+    <string name="restart">Restart</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movie_player">Coming Soon</string>
+</resources>
