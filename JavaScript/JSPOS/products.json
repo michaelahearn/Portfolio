@@ -1,0 +1,34 @@
+{
+	"products":[
+			{
+				"category":"thingamajig",				
+				"name":"Amalgamated Fresnoodler",				
+				"barcode":11111,
+				"price":25.99
+			},
+			{
+				"category":"clothing",				
+				"name":"Pelican Suspenders",				
+				"barcode":22222,
+				"price":10.99
+			},
+			{
+				"category":"technology",				
+				"name":"Reticulated Spline",
+				"barcode":33333,
+				"price":9.99
+			},
+			{
+				"category":"tool",				
+				"name":"Unsuspicious Wrench",				
+				"barcode":44444,
+				"price":5.95
+			},			
+			{
+				"category":"tool",				
+				"name":"String Lengthener",				
+				"barcode":55555,
+				"price":8.99
+			}
+		]
+}

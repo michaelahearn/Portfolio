@@ -1,0 +1,40 @@
+<!--Michael Ahearn - W0202544 - WEBD2000 - Final Project - JPOS-->
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8"> 
+<title>
+JS POS
+</title>
+</head>
+<body onload="loadJSON()">
+<h1>JS POS</h1>
+<h2>Item Entry</h2>
+<div id = "controlContainer">
+<p>
+<label>Scan Item </label><input type = "search" id = "barcodeSearch" name = "barcodeSearch"></p>
+<!--<p><label>Search Title </label><input type = "search" id = "titleSearch" name = "titleSearch" ></p>-->
+<!--<p><label>Search Price </label><input type = "text" id = "priceSearch" name = "priceSearch"></p>-->
+
+<h2>Cart</h2>
+
+<div id = "productsDiv" style="display: inline-block"></div>
+</div>
+
+<input type = "button" id = "completeSale" name = "completeSale" onclick="completeSale()" value = "Complete Sale">
+
+<h2>Product Search</h2>
+<p>Select Category 
+ <select id = "categorySelect" name = "categorySelect" onchange="searchCategory(categorySelect.value)">
+ </select> 
+</p>
+
+<!--<p><label>Search Category </label><input type = "text" id = "categorySearch" name = "categorySearch"></p>-->
+<!--<input type = "submit" id = "ReadBooks" name = "ReadBooks" value = "Show Books" onclick = "searchBarcode(barcodeSearch.value)">-->
+<div id = "categoryDisplay" style="display: inline-block"></div>
+</div>
+
+
+<script src = "ajaj.js"></script>
+</body>
+</html>
+
